@@ -69,7 +69,7 @@ create_import = {
 		exporter = USA
 }
 
-1939.1.1 = {
+1977.1.1 = {
 
 	add_political_power = 1198
 	
@@ -108,22 +108,6 @@ create_import = {
 	complete_national_focus = JAP_bicycle_battalions
 	complete_national_focus = JAP_small_arms_modernization
 
-	declare_war_on = {
-		target = CHI
-		type = puppet_wargoal_focus
-	}
-	#declare_war_on = {
-	#	target = GXC
-	#	type = puppet_focus
-	#}
-	#declare_war_on = {
-	#	target = YUN
-	#	type = puppet_focus
-	#}
-	#declare_war_on = {
-	#	target = PRC
-	#	type = annex_everything
-	#}
 	oob = "JAP_1939"
 	set_technology = {
 
@@ -178,31 +162,6 @@ create_import = {
 
 set_convoys = 400
 
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = MEN
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = MAN
-		autonomous_state = autonomy_integrated_puppet
-	}
-	else = {
-		set_autonomy = {
-			target = MEN
-			autonomous_state = autonomy_puppet
-		}
-		set_autonomy = {
-			target = MAN
-			autonomous_state = autonomy_puppet
-		}
-	}
-}
-
-
 set_politics = {
 
 	parties = {
@@ -227,7 +186,7 @@ set_politics = {
 }
 
 
-1939.1.1 = {
+1977.1.1 = {
 	set_politics = {
 
 		parties = {
@@ -789,7 +748,7 @@ create_navy_leader = {
 		}	
 
 	# 1939 Start #			
-	1939.1.1 = {
+	1977.1.1 = {
 		### Carrier Variants
 		create_equipment_variant = {
 			name = "Hiryu Class"
